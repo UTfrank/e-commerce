@@ -3,6 +3,7 @@ import Home from "./routes/Home/Home.component";
 import Navigation from './routes/Navigation/Navigation.component';
 import Authentication from './routes/Authentication/Authentication.component';
 import Shop from "./routes/Shop/Shop.component"
+import Checkout from './routes/Checkout/Checkout.component';
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
       {
         path: "shop",
         element: <Shop />
+      },
+      {
+        path: "checkout",
+        element: <Checkout />
       }
     ]
   }
